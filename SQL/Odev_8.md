@@ -129,7 +129,7 @@ SET name = 'utku'
 WHERE birthday = '1996-06-03' 
 RETURNING * ;`
 #### 4-Sütunların her birine göre ilgili satırı silecek 5 adet DELETE işlemi yapalım.
-`ELETE FROM employee
+`DELETE FROM employee
 WHERE id = 50;
 
 DELETE FROM employee
